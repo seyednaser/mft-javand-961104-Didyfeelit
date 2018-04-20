@@ -75,9 +75,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Event doInBackground(String... urls) {
 //             Perform the HTTP request for earthquake data and process the response.
-            Event result = Utils.fetchEarthquakeData(urls[0]);
-
-            return result;
+            return Utils.fetchEarthquakeData(urls[0]);
         }
 //
         @Override
